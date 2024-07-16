@@ -1,0 +1,14 @@
+subnet={
+    "sn1"={
+        name="Subnet-linux"
+        rgname="RG1tf"
+        vnetname="Linux-Vnet"
+        address_prefixes=["10.0.1.0/24"]
+    },
+    "sn2"={
+        name="Subnet-windows"
+        rgname="RG2tf"
+        vnetname="Windows-Vnet"
+        address_prefixes=["20.0.1.0/24"]
+    },
+}
